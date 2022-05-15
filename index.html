@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botanical Garden</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./ingex.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-icon-box">
+        <div>
+          <img src="./images/header/Subtract.svg" alt="Header icone" />
+        </div>
+        <div class="header-title-box">
+          <div class="header-title">MIST GARDENS</div>
+          <div class="header-description">Museum & Botanical Garden</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <div class="home">HOME</div>
+        <div class="visit">VISIT</div>
+        <div class="exhibitions">EXHIBITIONS</div>
+        <div class="program">PROGRM & EVENTS</div>
+        <div class="store">STORE</div>
+        <div class="membership">MEMBERSHIP</div>
+        <img
+          onclick="openMenu()"
+          id="menu-icon"
+          src="./images/header/menu.svg"
+          alt=""
+        />
+      </nav>
+    </header>
+    <div id="opened-menu">
+      <h4>Menu</h4>
+      <div onclick="closeMenu()" class="menu-block">
+        <h5>HOME</h5>
+        <h5>VISIT</h5>
+        <h5>EXHIBITIONS</h5>
+        <h5>PROGRM & EVENTS</h5>
+        <h5>STORE</h5>
+        <h5>MEMBERSHIP</h5>
+        <img class="menu-branch" src="./images/main/branch.svg" alt="" />
+      </div>
+    </div>
+    <div class="adventure">
+      <section>
+        <div>
+          <h2>
+            A beatiful <br />
+            adventure awaits
+          </h2>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Tincidunt facilisis nunc
+          </p>
+        </div>
+        <div class="auventure-button-box">
+          <button>buy tickets</button>
+          <button class="learn-more-button">learn more</button>
+        </div>
+      </section>
+      <img class="entrance" src="./images/main/entrance.png" alt="" />
+    </div>
+
+    <div class="discovery">
+      <div class="discovery-box">
+        <img class="flowerpot" src="./images/main/flowerpot.png" alt="" />
+        <div class="discovery-title-description">
+          <div>
+            <p class="discovery-title">Discover yourself with nature</p>
+          </div>
+          <div>
+            <p class="discovery-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+              facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Tincidunt facilisis nunc
+            </p>
+          </div>
+          <div>
+            <button class="discovery-learn-more-button">Learn More</button>
+          </div>
+        </div>
+        <img class="chairs" src="./images/main/chairs.png" alt="" />
+        <div class="branch">
+          <img src="./images/main/branch.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <article class="news">
+      <div class="title">
+        <h2 class="news_and_updates">News & Updates</h2>
+        <div class="view-all-posts">
+          <div class="line"></div>
+          <div class="view-posts">View all posts</div>
+          <img class="arrow-right" src="./images/main/arrow-right.svg" alt="" />
+        </div>
+      </div>
+      <section>
+        <div class="plants">
+          <img
+            id="plants-around"
+            src="./images/main/plants-around.png"
+            alt=""
+          />
+          <div class="around-us">
+            <h3>Plants Around Us</h3>
+            <div class="plants-box">
+              <p class="article">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit...
+              </p>
+              <div class="date">
+                <p>December 23, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="posts">
+          <div class="post">
+            <img class="post-image" src="./images/main/berries.png" alt="" />
+            <div class="post-description">
+              <div><h3>Lush Gardens</h3></div>
+              <div>
+                <p class="article">
+                  Lorem ipsum dolor sit amet, consectetur donec adipiscing elit.
+                  Tincidunt facilisis nunc lorem
+                </p>
+              </div>
+              <div class="date"><p>December 16, 2021</p></div>
+            </div>
+          </div>
+
+          <div class="post">
+            <img
+              class="post-image"
+              src="./images/main/flower-shop.png"
+              alt=""
+            />
+            <div class="post-description">
+              <div><h3>Exotic Nature</h3></div>
+              <div>
+                <p class="article">
+                  Lorem ipsum dolor sit amet, consectetur donec adipiscing elit.
+                  Tincidunt facilisis nunc lorem
+                </p>
+              </div>
+              <div class="date"><p>November 11, 2021</p></div>
+            </div>
+          </div>
+
+          <div class="post">
+            <img class="post-image" src="./images/main/soil.png" alt="" />
+            <div class="post-description">
+              <div><h3>It Starts with Soil</h3></div>
+              <div>
+                <p class="article">
+                  Lorem ipsum dolor sit amet, consectetur donec adipiscing elit.
+                  Tincidunt facilisis nunc lorem
+                </p>
+              </div>
+              <div class="date"><p>November 3, 2021</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <footer>
+      <div class="footer-information">
+        <div>
+          <div class="footer-icon-box">
+            <div>
+              <img src="./images/footer/subtract.png" alt="" />
+            </div>
+            <div class="footer-titel-box">
+              <div class="footer-title">Mist Gardens</div>
+              <div class="footer-description">Museum & Botanical Garden</div>
+            </div>
+          </div>
+          <div class="footer-article">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+            facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </div>
+        </div>
+        <div class="sitemap">
+          <h5>Sitemap</h5>
+          <ul>
+            <li>Home</li>
+            <li>Visit</li>
+            <li>Exhibitions</li>
+            <li>Programs & Events</li>
+            <li>Store</li>
+            <li>Membership</li>
+          </ul>
+        </div>
+        <div class="connect-box">
+          <h5>Connect</h5>
+          <div class="connect">
+            <a href="#"><img src="./images/footer/twitter.svg" alt="" /></a>
+            <a href="#"><img src="./images/footer/facebook.svg" alt="" /></a>
+            <a href="#"><img src="./images/footer/linkedin.svg" alt="" /></a>
+            <a href="#"><img src="./images/footer/mail.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="end">© 2021 Mist Gardens. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
