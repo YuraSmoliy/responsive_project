@@ -501,7 +501,7 @@ h5 {
   text-transform: capitalize;
 }
 .sitemap {
-  margin-left: 132px;
+  margin: auto;
 }
 .sitemap ul {
   margin-top: 20px;
@@ -516,7 +516,8 @@ h5 {
 }
 .connect-box {
   align-content: center;
-  margin-left: 120px;
+  margin: auto;
+  margin-top: 0px;
 }
 .connect-box h5 {
   display: inline;
